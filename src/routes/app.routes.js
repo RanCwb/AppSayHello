@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import SingIn from '../pages/SingIn';
 import ChatRoom from '../pages/ChatRoom';
 import Messages from '../pages/Messages';
+import Find from '../pages/Find';
 
 
 const AppStack = createNativeStackNavigator();
@@ -30,12 +31,19 @@ function AppRoutes() {
 
             />
             <AppStack.Screen name='Messages' component={Messages}
-            options={{
-                title:'tela Messages'
+            options={({route}) => ({
 
-            }}
+                title: route.params.treads.name
+
+            })}
+               
 
             
+            />
+
+            <AppStack.Screen
+                name='Buscar' component={Find}
+              
             />
             
 
