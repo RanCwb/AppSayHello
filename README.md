@@ -1,5 +1,10 @@
 App criado, usando banco de dados Firebase, usando ReactJs, React Native, nele você pode criar salas de atendimento e bate-papos, falar com diversas pessoas,
 cada usuário pode criar até 5 salas, podendo deletar a mesma no futuro, tudo isso acontece em real time, usando Firebase
+
+
+
+
+
 ![image](https://user-images.githubusercontent.com/114637945/233788968-058a8241-180c-486b-b441-82ec5dc7c5b2.png)
 ![image](https://user-images.githubusercontent.com/114637945/233789020-c6a28120-6bdd-4d94-8da3-7d42b8005603.png)
 ![image](https://user-images.githubusercontent.com/114637945/233789083-bb9a3d35-765b-410d-acba-6fa4fa5be95e.png)
